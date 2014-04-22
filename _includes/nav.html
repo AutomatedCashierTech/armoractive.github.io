@@ -1,0 +1,14 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+<li{% if current[1] == 'products' %} class="active"{% endif %}>
+  <a href="{{ site.url }}/products/">Products</a>
+</li>
+<li{% if current[1] == 'services' %} class="active"{% endif %}>
+  <a href="{{ site.url }}/services/">Services</a>
+</li>
+<li{% if current[1] == 'client-work' %} class="active"{% endif %}>
+  <a href="{{ site.url }}/client-work/">Client Work</a>
+</li>
+<li{% if current[1] == 'company' %} class="active"{% endif %}>
+  <a href="{{ site.url }}/company/">Company</a>
+</li>
