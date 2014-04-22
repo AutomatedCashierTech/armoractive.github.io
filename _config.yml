@@ -5,4 +5,4 @@ rdiscount:
   extensions: [smart]
 
 # Configuration options
-url: http://localhost:4000
+url: http://armoractive.github.io
