@@ -1,0 +1,59 @@
+---
+layout: default
+title: Blog News
+---
+
+<div class="jumbotron jumbotron-page-title">
+  <div class="container">
+    <h1>Blog</h1>
+    <p>The official blog of ArmorActive</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <pre>
+  * [ ] Three Systems in Your Office That Will Be Replaced by iPad Kiosks
+  * [ ] Why Apple TV and iPad Kiosks Were Meant For Eachother
+  * [ ] ArmorActive Joins Mobile Technologies Inc. at Global Shop 2014
+  * [ ] ArmorActive Acquired by Mobile Technologies Inc.
+  * [ ] A Guide to Managing Mobile Devices
+  * [ ] FMJ Enclosures Released For Nexus 7 and Galaxy Tab 3
+  * [ ] ArmorActive’s iPad Medical Products at HIMSS14
+  * [ ] Guidelines for Mobile POS Systems
+  * [ ] Industries That Benefit From iPad Kiosks
+  * [ ] Hair Salons Adopting POS Systems
+  * [ ] The iPad Revolution
+  * [ ] A History: Embracing POS Systems
+  * [ ] Using Tablets for Presentations at Conventions and Trade Shows
+  * [ ] Exploring Tablet POS Card Readers
+  * [ ] ArmorActive: Kiosk Products
+  * [ ] Introduction to iPad Kiosk Apps
+  * [ ] Turning an iPad into a Personal Kiosk
+  * [ ] New ADA Compliant iPad Wall Mount
+  * [ ] ArmorActive featured by Mobile Technology Inc. at Euroshop
+  * [ ] Kiosks: The Future of Tradeshows
+  * [ ] Meet the iPad mini Wall Mount for Conference Room Scheduling
+  * [ ] Retailers: The Benefits of Using Kiosks
+  * [ ] Kiosks: Enhancing Employees’ Productivity
+  * [ ] ArmorActive Featured by Microsoft at NRF
+  * [ ] Grocery Store Kiosks
+  * [ ] The Retail Self Service Kiosk
+  * [ ] The Future of Healthcare: Kiosks
+  * [ ] Banks Incorporating Tablet Kiosks
+  * [ ] Business News: The Benefits of Using Tablet Kiosks
+  * [ ] Tablet Kiosks: Helping Hotel Guests
+  * [x] The Benefits of Retail Kiosk Applications
+  * [x] Tablet Kiosks: Boosting Industry Sales
+  * [x] Restaurants Embracing Tablet Kiosks
+  </pre>
+
+</div>
