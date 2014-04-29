@@ -139,7 +139,16 @@ h6 {
 .marketing-section-carousel .carousel-caption {
   padding-bottom: 80px;
   text-align: left;
+  font-size: 24px;
   z-index: 10;
+}
+
+.marketing-section-carousel .carousel-caption h1 {
+  text-transform: uppercase;
+}
+
+.marketing-section-carousel .carousel-caption .btn {
+  margin-top: 30px;
 }
 
 .marketing-section-carousel .carousel .item {
