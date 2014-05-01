@@ -118,7 +118,6 @@ h6 {
 
 .marketing-section-carousel {
   border-bottom: 1px solid #c4c4c4;
-  margin-bottom: 60px;
 }
 
 .marketing-section-carousel .btn-primary {
@@ -195,50 +194,6 @@ h6 {
 .marketing-section-carousel .carousel-control .icon-prev:before { content: "\f104"; }
 .marketing-section-carousel .carousel-control .icon-next:before { content: "\f105"; }
 
-.carousel-buttons {
-  margin: 0 0 0 -180px;
-  padding: 0;
-  list-style: none;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  z-index: 1029;
-}
-
-.carousel-buttons:before,
-.carousel-buttons:after {
-  content: " ";
-  display: table;
-}
-
-.carousel-buttons:after {
-  clear: both;
-}
-
-.carousel-buttons li {
-  background-color: #333;
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  float: left;
-  text-align: center;
-}
-
-.carousel-buttons li a {
-  padding: 20px;
-  width: 180px;
-  display: block;
-  color: #fff;
-}
-
-.carousel-buttons li:first-child {
-  background-color: #b5bd35;
-}
-
-.carousel-buttons li:last-child {
-  background-color: #464646;
-}
-
 /* Marketing Section -> Lead Form
 -------------------------------------------------- */
 
@@ -253,12 +208,34 @@ h6 {
   border-bottom: 0;
 }
 
+
+/* Marketing Section -> Downloads
+-------------------------------------------------- */
+
+.marketing-section-downloads {
+  padding: 60px 0;
+}
+
+.marketing-section-downloads .nav li a {
+  background-color: #fff;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.marketing-section-downloads .nav li a:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+
 /* Marketing Section -> Player
 -------------------------------------------------- */
 
 .marketing-section-player {
+  border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
-  padding-bottom: 60px;
+  padding: 60px 0;
   margin-bottom: 30px;
 }
 
