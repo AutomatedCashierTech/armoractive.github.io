@@ -226,7 +226,7 @@ h6 {
 }
 
 .marketing-section-downloads .nav li a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .marketing-section-downloads li:first-child a {
