@@ -222,11 +222,20 @@ h6 {
   border-radius: 0;
   padding: 20px;
   font-size: 24px;
+  color: #fff;
 }
 
 .marketing-section-downloads .nav li a:hover {
   background-color: #eee;
   text-decoration: none;
+}
+
+.marketing-section-downloads li:first-child a {
+  background-color: #b5bd35;
+}
+
+.marketing-section-downloads li:last-child a {
+  background-color: #464646;
 }
 
 /* Marketing Section -> Player
