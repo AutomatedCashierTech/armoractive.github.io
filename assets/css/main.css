@@ -63,7 +63,7 @@ h6 {
 }
 
 .navbar-banner .navbar-brand {
-  background: url('../img/logo.png') center center no-repeat;
+  background: url('../img/logo.png?cache=busted') center center no-repeat;
   margin-left: 15px;
   width: 252px;
   text-indent: -9999px;
