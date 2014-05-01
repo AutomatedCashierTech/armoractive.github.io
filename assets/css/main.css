@@ -298,6 +298,10 @@ h6 {
   color: #b5bd35;
 }
 
+.marketing-section-products .img-responsive {
+  display: inline-block;
+}
+
 /* Marketing Section -> Services
 -------------------------------------------------- */
 
