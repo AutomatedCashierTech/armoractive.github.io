@@ -362,6 +362,7 @@ h6 {
 -------------------------------------------------- */
 
 .youtube-wrapper {
+  background-color: #fff;
   border: 1px solid #e1e1e1;
   padding: 5px 5px 0;
 }
