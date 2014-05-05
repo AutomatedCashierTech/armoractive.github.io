@@ -146,7 +146,11 @@ h6 {
 
 @media (min-width: 768px) {
   .marketing-section-carousel .carousel-caption {
+    padding-top: 80px;
+    width: 60%;
     text-align: left;
+    top: 0;
+    bottom: 0;
   }
 }
 
