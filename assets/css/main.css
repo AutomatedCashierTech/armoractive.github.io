@@ -128,6 +128,7 @@ h6 {
 
 .marketing-section-carousel .btn-primary:hover {
   color: #fff;
+  background-color: #b5bd35;
 }
 
 .marketing-section-carousel .carousel {
@@ -230,7 +231,11 @@ h6 {
 }
 
 .marketing-section-downloads .nav li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  filter: alpha(opacity=80);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
 }
 
 .marketing-section-downloads li:first-child a {
