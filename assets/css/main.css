@@ -40,6 +40,11 @@ h6 {
 }
 
 .btn-primary {
+	  -webkit-transition: background 100ms ease-in;
+-moz-transition: background 100ms ease-in;
+-ms-transition: background 100ms ease-in;
+-o-transition: background 100ms ease-in;
+transition: background 100ms ease-in;
   border: 0;
   border-radius: 0;
 }
@@ -124,6 +129,11 @@ h6 {
   background-color: transparent;
   border: 1px solid  #b5bd35;
   color: #b5bd35;
+-webkit-transition: background 100ms ease-in;
+-moz-transition: background 100ms ease-in;
+-ms-transition: background 100ms ease-in;
+-o-transition: background 100ms ease-in;
+transition: background 100ms ease-in;
 }
 
 .marketing-section-carousel .btn-primary:hover {
@@ -239,7 +249,7 @@ h6 {
 }
 
 .marketing-section-downloads li:first-child a {
-  background-color: #656f76;
+  background-color: #b5bd35;
 }
 
 .marketing-section-downloads li:last-child a {
