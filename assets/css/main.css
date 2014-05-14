@@ -67,6 +67,11 @@ transition: background 100ms ease-in;
   font-size: 12px;
   font-weight: bold;
 }
+.navbar-banner .navbar-nav > li > a:hover {
+  font-size: 12px;
+  font-weight: bold;
+  color:#b5bd35;
+}
 
 .navbar-banner .navbar-brand {
   background: url('../img/logo.png?cache=busted') center center no-repeat;
