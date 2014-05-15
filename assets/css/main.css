@@ -274,14 +274,17 @@ transition: background 100ms ease-in;
 /* Marketing Section -> Products
 -------------------------------------------------- */
 
+.product-colors,
 .product-specifications {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.product-colors h2,
 .product-specifications h2 {
   font-weight: normal;
 }
 
+.product-colors .text-center,
 .product-specifications .text-center {
   padding: 10px;
   font-size: 28px;
