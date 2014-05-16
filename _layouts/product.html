@@ -100,4 +100,26 @@ layout: default
   </section>
   {% endif %}
 
+  {% if page.product.gallery && page.products.gallery.size > 0 %}
+  <section class="product-details">
+
+    <div class="page-header">
+      <h2>Image Gallery</h2>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="row">
+        {% for image in page.product.gallery %}
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <p><img src="{{ site.url }}/assets/img/products/{{ permalink }}/gallery/{{ image }}" class="img-thumbnail"></p>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+
+  </section>
+  {% endif %}
+
 </div>

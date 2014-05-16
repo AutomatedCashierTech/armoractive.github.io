@@ -382,3 +382,7 @@ transition: background 100ms ease-in;
 .page-heading p {
   font-size: 18px;
 }
+
+.panel-body > .row:last-child p {
+  margin-bottom: 0;
+}
