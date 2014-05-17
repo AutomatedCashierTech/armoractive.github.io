@@ -105,7 +105,7 @@ transition: background 100ms ease-in;
 
 .navbar-footer {
   background: transparent;
-  margin-top: 80px;
+  margin-top: 0;
   border-width: 0;
   border-top-width: 1px;
   margin-bottom: 0;
@@ -381,6 +381,27 @@ transition: background 100ms ease-in;
   background-color: #fff;
   border: 1px solid #e1e1e1;
   padding: 5px 5px 0;
+}
+
+/* Blog Posts
+-------------------------------------------------- */
+
+.blog-posts {
+  background-color: #666f76;
+  margin-top: 40px;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.blog-posts .page-header {
+  border-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.blog-posts .page-header h2 {
+  font-weight: normal;
 }
 
 /* Quick Fixes
