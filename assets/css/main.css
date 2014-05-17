@@ -389,7 +389,7 @@ transition: background 100ms ease-in;
 .blog-posts {
   background-color: #666f76;
   margin-top: 40px;
-  padding: 60px 0;
+  padding: 50px 0 60px;
   color: #fff;
 }
 
