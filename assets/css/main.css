@@ -274,6 +274,13 @@ transition: background 100ms ease-in;
 /* Marketing Section -> Products
 -------------------------------------------------- */
 
+.product-info-container {
+  font-size: 18px;
+}
+
+/* Marketing Section -> Products
+-------------------------------------------------- */
+
 .product-details {
   font-family: 'Titillium Web', sans-serif;
 }

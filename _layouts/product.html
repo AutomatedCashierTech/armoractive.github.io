@@ -28,7 +28,7 @@ layout: default
   </div>
 </div>
 
-<div class="container">
+<div class="container product-info-container">
 
   {% if page.product.features && page.product.features.size > 0 %}
   <section class="product-details">
@@ -112,7 +112,11 @@ layout: default
         <div class="row">
         {% for image in page.product.gallery %}
           <div class="col-lg-3 col-md-3 col-sm-3">
-            <p><img src="{{ site.url }}/assets/img/products/{{ permalink }}/gallery/{{ image }}" class="img-thumbnail"></p>
+            <p>
+              <a href="{{ site.url }}/assets/img/products/{{ permalink }}/gallery/{{ image }}" data-toggle="lightbox" data-gallery="multiimages">
+                <img src="{{ site.url }}/assets/img/products/{{ permalink }}/gallery/{{ image }}" class="img-thumbnail">
+              </a>
+            </p>
           </div>
         {% endfor %}
         </div>
