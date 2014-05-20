@@ -113,6 +113,7 @@ transition: background 100ms ease-in;
   border-width: 0;
   border-top-width: 1px;
   margin-bottom: 0;
+  font-size: 12px;
 }
 
 /* Main Container
