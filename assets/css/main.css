@@ -100,6 +100,10 @@ transition: background 100ms ease-in;
   color: rgba(255, 255, 255, 0.7);
 }
 
+.navbar-default .navbar-text.text-muted {
+  color: #999;
+}
+
 /* Footer
 -------------------------------------------------- */
 
