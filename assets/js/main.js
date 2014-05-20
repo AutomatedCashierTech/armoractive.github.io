@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+  // Bootstrap tooltips
   $('[data-toggle="tooltip"]').tooltip()
 
   // Delegate lightbox functionality
