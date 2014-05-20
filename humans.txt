@@ -12,5 +12,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Normalize.css, jQuery, ModernizrHello, world.
+    HTML5, CSS3, JavaScript
+    jQuery, Normalize.css, Bootstrap, Font-Awesome, jFeed
