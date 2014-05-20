@@ -226,18 +226,18 @@ transition: background 100ms ease-in;
 .marketing-section-carousel .carousel-control .icon-prev:before { content: "\f104"; }
 .marketing-section-carousel .carousel-control .icon-next:before { content: "\f105"; }
 
-/* Marketing Section -> Lead Form
+/* Marketing Section -> Values
 -------------------------------------------------- */
 
-.marketing-section-lead-form {
+.marketing-section-values {
   background-color: #666f76;
   margin-top: 40px;
   padding: 40px 0;
   color: #fff;
 }
 
-.marketing-section-lead-form .page-header {
-  border-bottom: 0;
+.marketing-section-values .page-header {
+  border-bottom-color: rgba(255, 255, 255, 0.2);
 }
 
 
