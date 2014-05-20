@@ -115,7 +115,7 @@ layout: default
       <div class="row">
       {% for image in page.product.gallery %}
         <a href="{{ site.url }}/assets/img/products/{{ permalink }}/gallery/{{ image }}" data-toggle="lightbox" data-gallery="multiimages" data-title="{{ page.product.name }}" class="col-lg-3 col-md-3 col-sm-3">
-          <img src="{{ site.url }}/assets/img/products/{{ permalink }}/gallery/{{ image }}" class="img-thumbnail">
+          <p><img src="{{ site.url }}/assets/img/products/{{ permalink }}/gallery/{{ image }}" class="img-thumbnail"></p>
         </a>
       {% endfor %}
       </div>
