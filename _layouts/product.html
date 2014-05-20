@@ -15,14 +15,18 @@ layout: default
         </div>
         <div>
           <!--
-          <a href="#" class="btn btn-lg btn-default">
+          <a href="#" class="btn btn-lg btn-primary">
             <i class="fa fa-plus"></i> Add to Quote
           </a>
           -->
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
-        <img src="{{ site.url }}/assets/img/products/{{ permalink }}/hero.png" class="img-responsive" alt="{{ page.product.name }}">
+        <p><img src="{{ site.url }}/assets/img/products/{{ permalink }}/hero.png" class="img-responsive" alt="{{ page.product.name }}"></p>
+        <br>
+        <p class="text-center">
+          <a href="#product-gallery" class="btn btn-lg btn-default">View Gallery</a>
+        </p>
       </div>
     </div>
   </div>
@@ -101,7 +105,7 @@ layout: default
   {% endif %}
 
   {% if page.product.gallery && page.products.gallery.size > 0 %}
-  <section class="product-details">
+  <section id="product-gallery" class="product-details">
 
     <div class="page-header">
       <h2>Image Gallery</h2>
