@@ -190,6 +190,13 @@ transition: background 100ms ease-in;
   right: 0;
   max-width: none;
   min-height: 500px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .marketing-section-carousel .carousel-inner > .item > img {
+    display: block;
+  }
 }
 
 .marketing-section-carousel .carousel-caption h1 {
