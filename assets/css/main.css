@@ -75,8 +75,9 @@ transition: background 100ms ease-in;
 
 .navbar-banner .navbar-brand {
   background: url('../img/logo.png?cache=busted') center center no-repeat;
+  background-size: 100%;
   margin-left: 15px;
-  width: 252px;
+  width: 281px;
   text-indent: -9999px;
   font-size: 0;
 }
