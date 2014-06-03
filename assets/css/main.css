@@ -40,11 +40,11 @@ h6 {
 }
 
 .btn-primary {
-	  -webkit-transition: background 100ms ease-in;
--moz-transition: background 100ms ease-in;
--ms-transition: background 100ms ease-in;
--o-transition: background 100ms ease-in;
-transition: background 100ms ease-in;
+  -webkit-transition: background 100ms ease-in;
+  -moz-transition: background 100ms ease-in;
+  -ms-transition: background 100ms ease-in;
+  -o-transition: background 100ms ease-in;
+  transition: background 100ms ease-in;
   border: 0;
   border-radius: 0;
 }
@@ -186,7 +186,7 @@ transition: background 100ms ease-in;
 }
 
 .marketing-section-carousel .carousel .item {
-  background-color: #0d0d0d;
+  background-color: #000;
   height: 500px;
 }
 
