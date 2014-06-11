@@ -25,7 +25,9 @@ layout: default
         <p><img src="{{ site.url }}/assets/img/products/{{ permalink }}/hero.png" class="img-responsive" alt="{{ page.product.name }}"></p>
         <br>
         <p class="text-center">
-          <a href="#product-gallery" class="btn btn-lg btn-default js-smooth-scroll">View Gallery</a>
+          {% if page.product.gallery && page.products.gallery.size > 0 %}
+            <a href="#product-gallery" class="btn btn-lg btn-default js-smooth-scroll">View Gallery</a>
+          {% endif %}
         </p>
       </div>
     </div>
