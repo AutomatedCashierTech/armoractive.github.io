@@ -59,6 +59,11 @@
     render()
     saveCart()
 
+    // scrolTo top
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1000);
+
     $('.shopping-cart').addClass('open')
 
     return false
