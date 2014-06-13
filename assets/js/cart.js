@@ -15,7 +15,7 @@
       cart[product] = 1
     }
 
-    console.log(cart)
+    alert(cart.stringify())
 
     return false
   })
