@@ -20,9 +20,13 @@
   })
 
   function saveCart() {
-    $.cookie('cart',  JSON.stringify(cart), {
-      path: '/'
-    })
+    if (cart.length == 0) {
+      $.removeCookie('cart')
+    } else {
+      $.cookie('cart',  JSON.stringify(cart), {
+        path: '/'
+      })
+    }
   }
 
   function render() {
