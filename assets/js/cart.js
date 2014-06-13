@@ -20,7 +20,9 @@
   })
 
   function saveCart() {
-    $.cookie('cart',  JSON.stringify(cart))
+    $.cookie('cart',  JSON.stringify(cart), {
+      path: '/'
+    })
   }
 
   function render() {
