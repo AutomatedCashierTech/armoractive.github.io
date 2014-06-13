@@ -7,6 +7,8 @@
     var html = ''
     var uri = ''
 
+    console.log(cart)
+
     if (cart.length == 0 || cart == {}) {
       html += '<li class="disabled">Nothing here!</li>'
     } else {
