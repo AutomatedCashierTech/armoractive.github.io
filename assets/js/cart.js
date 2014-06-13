@@ -7,13 +7,13 @@
     var html = ''
     var uri = ''
 
-    if (cart.length !== 0) {
+    if (cart.length == 0 || cart == {}) {
+      html += '<li class="disabled">Nothing here!</li>'
+    } else {
       for (var key in cart) {
         html += '<li class="disabled"><a href="#">' + key + ' <span class="badge">' + cart[key] + '</span></a></li>'
         uri += key + ' (' + cart[key] + '), '
       }
-    } else {
-      html += '<li class="disabled">Nothing here!</li>'
     }
 
     html += '<li class="divider"></li><li><a href="http://www2.armoractive.com/l/28102/2013-11-05/tq6v3?products_selected=' + encodeURIComponent(uri.substring(0, uri.length - 2)) + '">Request Quote</a></li>'
