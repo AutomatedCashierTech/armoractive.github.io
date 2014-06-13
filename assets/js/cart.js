@@ -62,7 +62,7 @@
     // scrolTo top
     $('html, body').animate({
       scrollTop: 0
-    }, 1000);
+    }, 'fast');
 
     $('.shopping-cart').addClass('open')
 
