@@ -6,16 +6,16 @@
   function render() {
     var html = ''
     var uri = ''
+    var count = 0
 
-    console.log(cart)
+    for (var key in cart) {
+      html += '<li class="disabled"><a href="#">' + key + ' <span class="badge">' + cart[key] + '</span></a></li>'
+      uri += key + ' (' + cart[key] + '), '
+      count++
+    }
 
-    if (cart.length == 0 || cart == {}) {
-      html += '<li class="disabled">Nothing here!</li>'
-    } else {
-      for (var key in cart) {
-        html += '<li class="disabled"><a href="#">' + key + ' <span class="badge">' + cart[key] + '</span></a></li>'
-        uri += key + ' (' + cart[key] + '), '
-      }
+    if (count == 0) {
+      html += '<li class="disabled"><a href="#">No items have been added</a></li>'
     }
 
     html += '<li class="divider"></li><li><a href="http://www2.armoractive.com/l/28102/2013-11-05/tq6v3?products_selected=' + encodeURIComponent(uri.substring(0, uri.length - 2)) + '">Request Quote</a></li>'
