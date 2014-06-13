@@ -8,6 +8,17 @@
     cart = {}
   }
 
+  $(document).on('click', '.clear-quote', function (e) {
+    e.preventDefault()
+
+    cart = {}
+
+    render()
+    saveCart()
+
+    return false
+  })
+
   function saveCart() {
     $.cookie('cart',  JSON.stringify(cart))
   }
@@ -28,6 +39,7 @@
     }
 
     html += '<li class="divider"></li><li><a href="http://www2.armoractive.com/l/28102/2013-11-05/tq6v3?products_selected=' + encodeURIComponent(uri.substring(0, uri.length - 2)) + '">Request Quote</a></li>'
+    html += '<li class="divider"></li><li><a href="#" class="clear-quote">Clear Quote</a></li>'
 
     $('.shopping-cart .dropdown-menu').html(html)
   }
