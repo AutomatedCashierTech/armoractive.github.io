@@ -18,7 +18,7 @@
     var count = 0
 
     for (var key in cart) {
-      html += '<li class="disabled"><a href="#">' + key + ' &nbsp;&nbsp; <span class="badge pull-right">' + cart[key] + '</span></a></li>'
+      html += '<li class="disabled"><a href="#"><span class="badge pull-right">' + cart[key] + '</span> ' + key + ' &nbsp;&nbsp;</a></li>'
       uri += key + ' (' + cart[key] + '), '
       count++
     }
