@@ -57,6 +57,7 @@ h6 {
 -------------------------------------------------- */
 
 .truncate {
+  display: inline-block;
   width: 170px;
   white-space: nowrap;
   overflow: hidden;
