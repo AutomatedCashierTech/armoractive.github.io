@@ -34,7 +34,7 @@
     }
 
     render()
-    $('.shopping-cart').dropdown('show')
+    $('.shopping-cart').addClass('open')
 
     return false
   })
