@@ -36,10 +36,11 @@
 
     if (count == 0) {
       html += '<li class="disabled"><a href="#">No items have been added</a></li>'
+    } else {
+      html += '<li><a href="#" class="clear-quote">Clear Quote</a></li>'
     }
 
     html += '<li class="divider"></li><li><a href="/quote?products_selected=' + encodeURIComponent(uri.substring(0, uri.length - 2)) + '">Request Quote</a></li>'
-    html += '<li class="divider"></li><li><a href="#" class="clear-quote">Clear Quote</a></li>'
 
     $('.shopping-cart .dropdown-menu').html(html)
   }
