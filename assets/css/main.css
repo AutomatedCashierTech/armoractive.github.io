@@ -64,11 +64,10 @@ h6 {
 }
 
 .navbar-banner .navbar-nav > li > a {
-  font-size: 12px;
   font-weight: bold;
 }
+
 .navbar-banner .navbar-nav > li > a:hover {
-  font-size: 12px;
   font-weight: bold;
   color:#b5bd35;
 }
@@ -87,7 +86,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.navbar-banner .navbar-nav li:last-child {
+.navbar-banner .navbar-nav > li:last-child {
   margin-left: 10px;
 }
 
