@@ -38,7 +38,7 @@
       html += '<li class="disabled"><a href="#">No items have been added</a></li>'
     }
 
-    html += '<li class="divider"></li><li><a href="http://www2.armoractive.com/l/28102/2014-04-03/y3lyc?products_selected=' + encodeURIComponent(uri.substring(0, uri.length - 2)) + '">Request Quote</a></li>'
+    html += '<li class="divider"></li><li><a href="/quote?products_selected=' + encodeURIComponent(uri.substring(0, uri.length - 2)) + '">Request Quote</a></li>'
     html += '<li class="divider"></li><li><a href="#" class="clear-quote">Clear Quote</a></li>'
 
     /**
@@ -74,5 +74,12 @@
   })
 
   render()
+
+   // Populate a quote container if it exists
+  var quoteContainer = $('.quote-container')
+
+  if (quoteContainer.length) {
+    quoteContainer.html('<iframe src="http://www2.armoractive.com/l/28102/2014-04-03/y3lyc?products_selected=' + window.getParameterByName('products_selected') + '" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>')
+  }
 
 })()

@@ -1,57 +1,70 @@
-$(document).ready(function () {
+(function () {
 
-  // Bootstrap tooltips
-  $('[data-toggle="tooltip"]').tooltip()
+   window.getParameterByName = function(name) {
+     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+     var regexS = "[\\?&]" + name + "=([^&#]*)";
+     var regex = new RegExp(regexS);
+     var results = regex.exec(window.location.href);
+     if (results == null) return "";
+     else return decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
 
-  // Delegate lightbox functionality
-  $(document).delegate('*[data-toggle="lightbox"]', 'click', function (e) {
-    e.preventDefault()
-    $(this).ekkoLightbox()
-  })
+  $(document).ready(function () {
 
-  $.getFeed({
-    url: 'http://blog.armoractive.com/feed/atom',
-    success: function (feed) {
-      if (!feed || !feed.items) {
-        return
-      }
+    // Bootstrap tooltips
+    $('[data-toggle="tooltip"]').tooltip()
 
-      $('.blog-posts-loading').hide()
+    // Delegate lightbox functionality
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function (e) {
+      e.preventDefault()
+      $(this).ekkoLightbox()
+    })
 
-      var items = feed.items.slice(0, 4)
+    $.getFeed({
+      url: 'http://blog.armoractive.com/feed/atom',
+      success: function (feed) {
+        if (!feed || !feed.items) {
+          return
+        }
 
-      for (var i = 0; i < 4; i++) {
+        $('.blog-posts-loading').hide()
 
-        if (typeof items[i] !== 'undefined') {
-            var description = $(items[i].description).first().html()
+        var items = feed.items.slice(0, 4)
 
-            if (description.length > 255) {
-                description = description.substring(0, 252) + '...'
-            }
+        for (var i = 0; i < 4; i++) {
 
-            $('.blog-posts-' + i).html([
-                '<h4><a href="' + items[i].link + '">' + items[i].title + '</a></h4>',
-                '<p>' + description + '</p>'
-            ].join('\n'))
+          if (typeof items[i] !== 'undefined') {
+              var description = $(items[i].description).first().html()
+
+              if (description.length > 255) {
+                  description = description.substring(0, 252) + '...'
+              }
+
+              $('.blog-posts-' + i).html([
+                  '<h4><a href="' + items[i].link + '">' + items[i].title + '</a></h4>',
+                  '<p>' + description + '</p>'
+              ].join('\n'))
+          }
         }
       }
-    }
-  })
+    })
 
-  // Performs a smooth page scroll to an anchor on the same page.
-  $('a.js-smooth-scroll').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash)
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']')
+    // Performs a smooth page scroll to an anchor on the same page.
+    $('a.js-smooth-scroll').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash)
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']')
 
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000)
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000)
 
-        return false
+          return false
+        }
       }
-    }
+    })
+
   })
 
-})
+})()
