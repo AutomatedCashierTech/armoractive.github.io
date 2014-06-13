@@ -36,6 +36,15 @@
               <i class="fa fa-phone"></i> +1 (801) 653-3807
             </a>
           </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Power Med Station <span class="badge">1</span></a></li>
+              <li><a href="#">Door Frame Mini Enclosure <span class="badge">5</span></a></li>
+              <li class="divider"></li>
+              <li><a href="#"><a href="#" class="btn btn-block btn-primary">Request Quote</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -87,10 +96,13 @@
   </nav>
 
   <script src="{{ site.url }}/assets/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="{{ site.url }}/assets/libs/jquery-cookie/1.4.1/jquery-cookie.js"></script>
   <script src="{{ site.url }}/assets/libs/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <script src="{{ site.url }}/assets/libs/ekko-lightbox/0.0.1/ekko-lightbox.min.js"></script>
   <script src="{{ site.url }}/assets/libs/jfeed/2.0.0/jquery.jfeed.js"></script>
+
   <script src="{{ site.url }}/assets/js/main.js?{{ site.time | date: "%Y%m%d%g%m%s" }}"></script>
+  <script src="{{ site.url }}/assets/js/cart.js?{{ site.time | date: "%Y%m%d%g%m%s" }}"></script>
 
   <!-- begin olark code -->
   <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
