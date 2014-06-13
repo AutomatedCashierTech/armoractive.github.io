@@ -86,6 +86,11 @@ h6 {
   text-transform: uppercase;
 }
 
+.navbar-banner .navbar-nav > li > .dropdown-menu {
+  margin-top: -1px;
+  text-transform: none;
+}
+
 .navbar-banner .navbar-nav .navbar-spacer {
   margin-right: 20px;
   margin-left: 10px;
