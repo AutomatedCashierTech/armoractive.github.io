@@ -34,6 +34,7 @@
     }
 
     render()
+    $('.shopping-cart').dropdown('show')
 
     return false
   })
