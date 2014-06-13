@@ -1,6 +1,13 @@
 (function () {
 
-  var cart = {
+  var cart = JSON.parse($.cookie('cart'))
+
+  if (!cart) {
+    cart = {}
+  }
+
+  function saveCart() {
+    $.cookie('cart',  JSON.stringify(cart))
   }
 
   function render() {
@@ -36,6 +43,8 @@
     }
 
     render()
+    saveCart()
+
     $('.shopping-cart').addClass('open')
 
     return false
