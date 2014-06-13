@@ -75,7 +75,7 @@
   var quoteContainer = $('.quote-container')
 
   if (quoteContainer.length) {
-    quoteContainer.html('<iframe src="http://www2.armoractive.com/l/28102/2014-04-03/y3lyc?products_selected=' + window.getParameterByName('products_selected') + '" width="100%" height="685" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>')
+    quoteContainer.html('<iframe src="http://www2.armoractive.com/l/28102/2014-04-03/y3lyc?products_selected=' + window.getParameterByName('products_selected') + '" width="100%" height="725" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>')
   }
 
 })()
