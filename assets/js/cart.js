@@ -1,8 +1,10 @@
 (function () {
 
-  var cart = JSON.parse($.cookie('cart'))
+  var cart = $.cookie('cart')
 
-  if (!cart) {
+  if (cart) {
+    cart = JSON.parse(cart)
+  } else {
     cart = {}
   }
 
