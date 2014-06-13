@@ -87,13 +87,16 @@ h6 {
 }
 
 .navbar-banner .navbar-nav > li > .dropdown-menu {
-  margin-top: -1px;
   text-transform: none;
 }
 
 .navbar-banner .navbar-nav .navbar-spacer {
-  margin-right: 20px;
   margin-left: 10px;
+}
+
+.navbar-banner .shopping-cart {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .navbar-banner .navbar-nav > li > a.navbar-phone {
