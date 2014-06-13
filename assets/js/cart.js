@@ -41,10 +41,6 @@
     html += '<li class="divider"></li><li><a href="/quote?products_selected=' + encodeURIComponent(uri.substring(0, uri.length - 2)) + '">Request Quote</a></li>'
     html += '<li class="divider"></li><li><a href="#" class="clear-quote">Clear Quote</a></li>'
 
-    /**
-    <iframe src="http://www2.armoractive.com/l/28102/2014-04-03/y3lyc" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
-    */
-
     $('.shopping-cart .dropdown-menu').html(html)
   }
 
@@ -79,7 +75,7 @@
   var quoteContainer = $('.quote-container')
 
   if (quoteContainer.length) {
-    quoteContainer.html('<iframe src="http://www2.armoractive.com/l/28102/2014-04-03/y3lyc?products_selected=' + window.getParameterByName('products_selected') + '" width="100%" height="1150" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>')
+    quoteContainer.html('<iframe src="http://www2.armoractive.com/l/28102/2014-04-03/y3lyc?products_selected=' + window.getParameterByName('products_selected') + '" width="100%" height="685" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>')
   }
 
 })()
