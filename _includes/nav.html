@@ -1,8 +1,6 @@
 {% assign current = page.url | downcase | split: '/' %}
 
-<li{% if current[1] == 'products' %} class="active"{% endif %}>
-  <a href="{{ site.url }}/products/">Products</a>
-  <div class="dropdown">
+<div class="dropdown">
   <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
     Dropdown
     <span class="caret"></span>
@@ -15,6 +13,8 @@
     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
   </ul>
 </div>
+<li{% if current[1] == 'products' %} class="active"{% endif %}>
+  <a href="{{ site.url }}/products/">Products</a>
 </li>
 <li{% if current[1] == 'services' %} class="active"{% endif %}>
   <a href="{{ site.url }}/services/">Services</a>
