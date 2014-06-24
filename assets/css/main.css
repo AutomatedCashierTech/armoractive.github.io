@@ -485,11 +485,16 @@ transition: background 100ms ease-in;
 .retail-content{
 	background-color: #fff;
 	margin-top: 40px;
-	padding: 20px 0 60px;
-	color: #464646; }
+	padding: 20px 0 0px;
+	color: #464646;
+	font-size: 18px;
+	font-weight: 200; }
 	
 .retail-video-section{
 	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
 	background-size:cover;
-	padding: 20px 0 60px; }
+	padding: 60px 0 60px; }
+	
+.retail-video-section h2{
+	font-weight: 400; }
 
