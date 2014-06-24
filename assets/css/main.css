@@ -474,6 +474,9 @@ transition: background 100ms ease-in;
 	
 .img-align{
 	margin: 0 auto; }
+
+.retail-header {
+	padding: 40px 0 0 0; }
 	
 .separator {
 	border-top: #9aa41c solid 2px;
