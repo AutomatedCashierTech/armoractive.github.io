@@ -456,3 +456,40 @@ transition: background 100ms ease-in;
 .panel-body > .row:last-child p {
   margin-bottom: 0;
 }
+
+/* Retail Page
+-------------------------------------------------- */
+
+.light {
+	font-weight: 300; }
+
+.semibold{
+	font-weight: 600; }
+	
+.green{
+	color: #9aa41c !important; }
+
+.open-sans{
+	font-family:'Open Sans',sans-serif; }
+	
+.img-align{
+	margin: 0 auto; }
+	
+.retail-graphic{
+	border-bottom: #9aa41c solid 15px;
+	background-color:#a7afb9; }
+	
+.retail-graphic.container-fluid{
+	padding: 0; }
+	
+.retail-content{
+	background-color: #fff;
+	margin-top: 40px;
+	padding: 20px 0 60px;
+	color: #464646; }
+	
+.retail-video-section{
+	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
+	background-size:cover;
+	padding: 20px 0 60px; }
+
