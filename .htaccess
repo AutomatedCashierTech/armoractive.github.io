@@ -1,6 +1,3 @@
 RewriteEngine On
-
-RewriteRule ^retail/?$   /products/by-industry/retail.html [NC]
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
