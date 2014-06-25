@@ -493,7 +493,7 @@ transition: background 100ms ease-in;
 .retail-content{
 	background-color: #fff;
 	margin-top: 40px;
-	padding: 20px 0 0px;
+	padding: 20px 0 40px;
 	color: #464646;
 	font-size: 18px;
 	font-weight: 200; }
