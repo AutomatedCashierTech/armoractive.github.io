@@ -498,6 +498,28 @@ transition: background 100ms ease-in;
 	font-size: 18px;
 	font-weight: 200; }
 	
+.retail-content ul li {
+	background-image: url('../img/products/retail/AA-Retail-Page-Icon-Sprite.png');
+	list-style: none none inside;
+	padding: 14px 0 14px 60px;
+	display: block;
+	background-repeat: no-repeat; }
+	
+#nav li.item1 {
+	background-position:0px 3px; }
+	
+#nav li.item2 {
+	background-position: 0px -52px; }
+	
+#nav li.item3 {
+	background-position:0px -104px; }
+	
+#nav li.item4 {
+	background-position:0px -159px; }
+	
+#nav li.item5 {
+	background-position:0px -213px; }
+	
 .retail-video-section{
 	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
 	background-size:cover;
