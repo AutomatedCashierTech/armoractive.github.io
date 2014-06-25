@@ -506,19 +506,19 @@ transition: background 100ms ease-in;
 	background-repeat: no-repeat; }
 	
 #nav ul li.item1 {
-	background-position:0px 3px; }
+	background-position: 0px 3px; }
 	
 #nav ul li.item2 {
-	background-position: 0px -52px; }
+	background-position: 0px -52px !important; }
 	
 #nav ul li.item3 {
-	background-position:0px -104px; }
+	background-position: 0px -104px; }
 	
 #nav ul li.item4 {
-	background-position:0px -159px; }
+	background-position: 0px -159px; }
 	
 #nav ul li.item5 {
-	background-position:0px -213px; }
+	background-position: 0px -213px; }
 	
 .retail-video-section{
 	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
