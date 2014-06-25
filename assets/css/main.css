@@ -501,9 +501,10 @@ transition: background 100ms ease-in;
 .retail-content ul li {
 	background-image: url('../img/products/retail/AA-Retail-Page-Icon-Sprite.png');
 	list-style: none none inside;
-	padding: 14px 0 14px 60px;
+	padding: 15px 0 15px 60px;
 	display: block;
-	background-repeat: no-repeat; }
+	background-repeat: no-repeat;
+	font-size: 16px; }
 	
 .retail-content ul li.item1 {
 	background-position: 0px 3px; }
