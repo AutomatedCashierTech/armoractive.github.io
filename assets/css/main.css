@@ -134,6 +134,9 @@ h6 {
   color: #999;
 }
 
+.navbar-nav iframe {
+	display: none !important; }
+
 /* Footer
 -------------------------------------------------- */
 
@@ -526,7 +529,8 @@ transition: background 100ms ease-in;
 	height: 300px; }
 	
 .featured-image img {
-	vertical-align: middle; } 
+	vertical-align: middle;
+	height: 100%; } 
 	
 .retail-video-section{
 	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
