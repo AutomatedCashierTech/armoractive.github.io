@@ -501,7 +501,7 @@ transition: background 100ms ease-in;
 	font-size: 18px;
 	font-weight: 200; }
 	
-/* .icon-set {
+.icon-set {
 	padding: 1em 0; }
 	
 .icon-set h3 {
@@ -526,15 +526,14 @@ transition: background 100ms ease-in;
 	height: 300px; }
 	
 .featured-image img {
-	vertical-align: middle;
-	height: 100%; } */
+	vertical-align: middle; } 
 	
 .retail-video-section{
 	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
 	background-size:cover;
 	padding: 60px 0 60px; }
 	
-.retail-video-section h2{
+.retail-video-section h2 {
 	font-weight: 400; }
 	
 .dropdown-submenu{
