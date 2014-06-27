@@ -510,6 +510,9 @@ transition: background 100ms ease-in;
 .featured-products {
 	padding: 1em 0 2em; }
 	
+.product-align {
+	padding: 2em 0; }
+	
 .featured-products a {
 	color: #515150; }
 	
@@ -523,7 +526,8 @@ transition: background 100ms ease-in;
 	height: 300px; }
 	
 .featured-image img {
-	vertical-align: middle; }
+	vertical-align: middle;
+	height: 100%; }
 	
 .retail-video-section{
 	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
