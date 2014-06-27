@@ -501,6 +501,12 @@ transition: background 100ms ease-in;
 	font-size: 18px;
 	font-weight: 200; }
 	
+.icon-set {
+	padding: 1em 0; }
+	
+.icon-set h3 {
+	font-size: 20px; }
+	
 .featured-products {
 	padding: 1em 0 2em; }
 	
@@ -511,7 +517,13 @@ transition: background 100ms ease-in;
 	color: #9aa41c; }
 	
 .featured-products h2 {
-	font-size: 24px; }
+	font-size: 26px; }
+	
+.featured-image {
+	height: 300px; }
+	
+.featured-image img {
+	vertical-align: middle; }
 	
 .retail-video-section{
 	background:url('../img/products/retail/AA-Retail-Page-Video-Background.jpg') center center no-repeat;
