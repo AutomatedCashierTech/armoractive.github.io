@@ -544,6 +544,10 @@ transition: background 100ms ease-in;
 .retail-video-section h2, .restaurant-video-section h2 {
 	font-weight: 400; }
 	
+.restaurant-video-section h2 {
+	color: #fff !important;
+	font-size: 26px; }
+	
 .dropdown-submenu{
 	position:relative; }
 	
