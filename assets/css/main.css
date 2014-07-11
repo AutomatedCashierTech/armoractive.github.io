@@ -460,7 +460,7 @@ transition: background 100ms ease-in;
   margin-bottom: 0;
 }
 
-/* Retail and Restaurant Page
+/* Retail, Restaurant and Healthcare Page's
 -------------------------------------------------- */
 
 .light {
@@ -481,7 +481,7 @@ transition: background 100ms ease-in;
 .img-align{
 	margin: 0 auto; }
 
-.retail-header, .restaurant-header {
+.retail-header, .restaurant-header, .healthcare-header {
 	padding: 40px 0 0 0; }
 	
 .separator {
@@ -489,14 +489,14 @@ transition: background 100ms ease-in;
 	margin: 2em auto 1em;
 	width: 10%; }
 	
-.retail-graphic, .restaurant-graphic {
+.retail-graphic, .restaurant-graphic, .healthcare-graphic {
 	border-bottom: #9aa41c solid 15px;
 	background-color:#fff; }
 	
-.retail-graphic .container-fluid, .restaurant-graphic .container-fluid {
+.retail-graphic .container-fluid, .restaurant-graphic .container-fluid, .healthcare-graphic .container-fluid {
 	padding: 0; }
 	
-.retail-content, .restaurant-content {
+.retail-content, .restaurant-content, .healthcare-content {
 	background-color: #fff;
 	margin-top: 40px;
 	padding: 20px 0 40px;
@@ -505,16 +505,16 @@ transition: background 100ms ease-in;
 	font-weight: 200; }
 	
 .icon-set {
-	padding: 1em 0; }
+	padding: 1em 0 0; }
 	
 .icon-set h3 {
 	font-size: 20px; }
 	
 .featured-products {
-	padding: 1em 0 2em; }
+	padding: 0 0 2em; }
 	
 .product-align {
-	padding: 2em 0; }
+	padding: 1em 0 0; }
 	
 .featured-products a {
 	color: #515150; }
@@ -541,7 +541,12 @@ transition: background 100ms ease-in;
 	background-size:cover;
 	padding: 60px 0 60px; }
 	
-.retail-video-section h2, .restaurant-video-section h2 {
+.healthcare-video-section {
+	background:url('../img/products/healthcare/AA-Healthcare-Page-Video-Background.jpg') center center no-repeat;
+	background-size:cover;
+	padding: 60px 0 60px; }
+	
+.retail-video-section h2, .restaurant-video-section h2, .healthcare-video-section h2 {
 	font-weight: 400; }
 	
 .restaurant-video-section h2 {
