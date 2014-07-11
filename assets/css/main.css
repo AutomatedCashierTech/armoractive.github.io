@@ -553,6 +553,9 @@ transition: background 100ms ease-in;
 	color: #fff !important;
 	font-size: 26px; }
 	
+.healthcare-video-section h2 {
+	font-size: 26px; }
+	
 .dropdown-submenu{
 	position:relative; }
 	
