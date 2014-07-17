@@ -585,4 +585,9 @@ transition: background 100ms ease-in;
 	margin-top:5px;
 	margin-right:-10px; }
 
+/* Product Page Adjustments - JC 7/16/14
+-------------------------------------------------- */
+
+.product-buttons .btn-default {
+	border-radius: 0px; }
 
