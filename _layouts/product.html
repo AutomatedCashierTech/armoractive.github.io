@@ -25,10 +25,10 @@ layout: default
         <div class="product-buttons">
           <p class="text-center">
             {% if page.product.gallery && page.products.gallery.size > 0 %}
-              <a href="#product-gallery" class="btn btn-lg btn-default js-smooth-scroll">View Gallery</a>
+              <a href="#product-gallery" class="btn btn-lg btn-primary js-smooth-scroll">View Gallery</a>
             {% endif %}
             {% if page.product.brochure.size > 0 %}
-            	<a href="/assets/img/products/{{ permalink }}/{{ page.product.brochure.url }}" target="_blank" class="btn btn-lg btn-default">Product Brochure</a>
+            	<a href="/assets/img/products/{{ permalink }}/{{ page.product.brochure.url }}" target="_blank" class="btn btn-lg btn-primary">Product Brochure</a>
             {% endif %}
           </p>
         </div>
