@@ -419,6 +419,28 @@ transition: background 100ms ease-in;
   color: #fff;
 }
 
+/* Jumboblank
+-------------------------------------------------- */
+
+.jumboblank {
+  background-color: transparent;
+}
+
+.jumboblank p {
+  font-size: 18px;
+}
+
+.jumboblank-product {
+  border-bottom: 1px solid #ddd;
+}
+
+.jumboblank-page-title {
+  background: url('../img/Jumboblank_title_background.png') repeat-x #93989e;
+  background-size: 100% auto;
+  text-shadow: 0 5px 0 rgba(0, 0, 0, 0.03);
+  color: #000;
+}
+
 /* YouTube
 -------------------------------------------------- */
 
