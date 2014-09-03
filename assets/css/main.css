@@ -503,7 +503,7 @@ transition: background 100ms ease-in;
 .img-align{
 	margin: 0 auto; }
 
-.retail-header, .restaurant-header, .healthcare-header {
+.retail-header, .restaurant-header, .healthcare-header, .education-header {
 	padding: 40px 0 0 0; }
 	
 .separator {
@@ -511,14 +511,14 @@ transition: background 100ms ease-in;
 	margin: 2em auto 1em;
 	width: 10%; }
 	
-.retail-graphic, .restaurant-graphic, .healthcare-graphic {
+.retail-graphic, .restaurant-graphic, .healthcare-graphic, .education-graphic {
 	border-bottom: #9aa41c solid 15px;
 	background-color:#fff; }
 	
-.retail-graphic .container-fluid, .restaurant-graphic .container-fluid, .healthcare-graphic .container-fluid {
+.retail-graphic .container-fluid, .restaurant-graphic .container-fluid, .healthcare-graphic .container-fluid, .education-graphic .container-fluid {
 	padding: 0; }
 	
-.retail-content, .restaurant-content, .healthcare-content {
+.retail-content, .restaurant-content, .healthcare-content, .education-content {
 	background-color: #fff;
 	margin-top: 40px;
 	padding: 20px 0 40px;
